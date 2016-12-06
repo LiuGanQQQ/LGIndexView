@@ -187,5 +187,13 @@
     self.selectedBlock = block;
 }
 
+#pragma mark  *********************************************** dealloc ***********************************************
+
+-(void)dealloc
+{
+    self.animationLabel = nil;
+    self.indexArray = nil;
+    self.selectedBlock = nil;
+}
 
 @end
